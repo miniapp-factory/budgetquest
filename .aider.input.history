@@ -1,0 +1,212 @@
+
+# 2025-12-01 06:10:27.308435
++Code the following app
++```
++Build a mini app called “Budget Quest” — a simple Daily Savings Adventure Game designed to help users build better financial habits.
++
++🎯 Goal
++
++Gamify daily budgeting and saving. Users complete small savings challenges to earn points, level up, and receive monthly reward NFTs.
++
++📌 Core Features (Keep it simple)
++1. Wallet Connection
++
++Allow users to connect their crypto wallet.
++
++Store basic user profile + progress.
++
++2. Daily Savings Challenge
++
++AI generates one daily challenge, e.g.:
++
++“Spend ₱50 less today”
++
++“Avoid buying sugary drinks”
++
++“Log today’s expenses”
++
++A simple button to mark challenge as completed.
++
++3. Points + Levelling System
++
++Completing challenges earns:
++
++Good Habit Points
++
++On-chain badges
++
++Users level up their Financial Warrior avatar.
++
++4. Progress Dashboard
++
++Daily streak counter
++
++Total points
++
++Current level
++
++Earned badges (simple icons)
++
++5. Monthly Reward NFT
++
++If the user completes challenges consistently, allow them to claim a Monthly Achievement NFT.
++
++🎨 Professional Color Theme
++
++Use a modern, trustworthy, finance-friendly palette:
++
++Primary: #2563EB (Blue — trust & stability)
++
++Secondary: #16A34A (Green — savings & progress)
++
++Accent: #FACC15 (Gold — rewards)
++
++Background: #F8FAFC (Clean, soft white)
++
++Text: #0F172A (Dark navy)
++
++Overall style: minimal, clean, professional, and mobile-friendly.
++
++🧭 UX Requirements (User-Friendly + Functional)
++
++Your design should ensure:
++
++Simple, single-tap daily challenge interaction
++
++Clear visual progress indicators
++
++Smooth wallet connection flow
++
++Easy navigation: Home, Challenges, Progress, Rewards
++
++Compact UI that works on small mobile devices
++
++Friendly micro-animations (optional but recommended)
++
++Avoid clutter. Make everything focused on the daily habit loop.
++
++📌 Output Requirements
++
++Provide:
++
++A complete UI & UX layout
++
++The smart components needed
++
++Suggested screens (Home, Daily Challenge, Progress, Reward Claim)
++
++Logic flow for challenges, points, badges, and monthly rewards
++
++Keep the entire mini app simple, efficient, and ready for deployment.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-12-01 06:10:27.310288
++Code the following app
++```
++Build a mini app called “Budget Quest” — a simple Daily Savings Adventure Game designed to help users build better financial habits.
++
++🎯 Goal
++
++Gamify daily budgeting and saving. Users complete small savings challenges to earn points, level up, and receive monthly reward NFTs.
++
++📌 Core Features (Keep it simple)
++1. Wallet Connection
++
++Allow users to connect their crypto wallet.
++
++Store basic user profile + progress.
++
++2. Daily Savings Challenge
++
++AI generates one daily challenge, e.g.:
++
++“Spend ₱50 less today”
++
++“Avoid buying sugary drinks”
++
++“Log today’s expenses”
++
++A simple button to mark challenge as completed.
++
++3. Points + Levelling System
++
++Completing challenges earns:
++
++Good Habit Points
++
++On-chain badges
++
++Users level up their Financial Warrior avatar.
++
++4. Progress Dashboard
++
++Daily streak counter
++
++Total points
++
++Current level
++
++Earned badges (simple icons)
++
++5. Monthly Reward NFT
++
++If the user completes challenges consistently, allow them to claim a Monthly Achievement NFT.
++
++🎨 Professional Color Theme
++
++Use a modern, trustworthy, finance-friendly palette:
++
++Primary: #2563EB (Blue — trust & stability)
++
++Secondary: #16A34A (Green — savings & progress)
++
++Accent: #FACC15 (Gold — rewards)
++
++Background: #F8FAFC (Clean, soft white)
++
++Text: #0F172A (Dark navy)
++
++Overall style: minimal, clean, professional, and mobile-friendly.
++
++🧭 UX Requirements (User-Friendly + Functional)
++
++Your design should ensure:
++
++Simple, single-tap daily challenge interaction
++
++Clear visual progress indicators
++
++Smooth wallet connection flow
++
++Easy navigation: Home, Challenges, Progress, Rewards
++
++Compact UI that works on small mobile devices
++
++Friendly micro-animations (optional but recommended)
++
++Avoid clutter. Make everything focused on the daily habit loop.
++
++📌 Output Requirements
++
++Provide:
++
++A complete UI & UX layout
++
++The smart components needed
++
++Suggested screens (Home, Daily Challenge, Progress, Reward Claim)
++
++Logic flow for challenges, points, badges, and monthly rewards
++
++Keep the entire mini app simple, efficient, and ready for deployment.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-12-01 06:11:08.731665
++apply changes
+
+# 2025-12-01 06:11:08.732837
++apply changes
