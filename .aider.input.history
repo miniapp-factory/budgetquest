@@ -250,3 +250,9 @@
 +At the end of the daily sequence, the app summarizes the user’s remaining balance, total points earned, and a short AI-generated explanation of how their decisions reflect real-life financial habits. Users earn streak bonuses for completing consecutive days. Reaching certain point thresholds lets players level up their Financial Warrior, while consistent good decisions reward on-chain badges. Completing all daily challenges for a full month unlocks a Monthly Achievement NFT representing the user’s financial discipline.
 +
 +The rules of the game are simple: (1) The user starts each day with a fixed budget; (2) The game shows realistic financial choices; (3) The user selects one option per scenario; (4) Each option adjusts the remaining money and points; (5) The user finishes the day when all choices are made; (6) Scores, streaks, and levels are updated automatically; and (7) Monthly consistency rewards NFTs. The UI should focus purely on the game: budget display, scenario cards with choices, points earned, streak tracker, and end-of-day summary. Keep the gameplay loop quick, educational, and repeatable.
+
+# 2025-12-01 07:14:19.399695
++Add more daily challenges, not just 4 make it atleast 10 per day. Also dont hint the correct answer. Lastly, change the rule, the user should survive for the one week with the allowance given. The allowance should not renew unless the user win or loses. If the user survives he wins if not he does not. 
+
+# 2025-12-01 07:14:19.400051
++Add more daily challenges, not just 4 make it atleast 10 per day. Also dont hint the correct answer. Lastly, change the rule, the user should survive for the one week with the allowance given. The allowance should not renew unless the user win or loses. If the user survives he wins if not he does not. 
