@@ -203,7 +203,7 @@ export default function Game() {
   };
 
   if (summary) {
-    const survived = remaining > 0;
+    const survived = remaining > 0 && points > 0;
     return (
       <Card className="w-full max-w-md">
         <CardHeader>
