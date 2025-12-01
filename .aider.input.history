@@ -210,3 +210,27 @@
 
 # 2025-12-01 06:11:08.732837
 +apply changes
+
+# 2025-12-01 06:35:37.970640
++Build a mini app called “Budget Quest”, a simple but meaningful financial decision-making game designed to help users develop better spending habits through real-life scenarios. When the game starts, the user receives a virtual daily budget (e.g., ₱500–₱1,000), and the app presents several real-life choices such as buying coffee, ordering fast food, taking public transportation instead of a taxi, or purchasing a non-essential item. The user must choose how to spend their money, and each decision earns points based on whether the choice reflects smart financial behavior. Good decisions—such as choosing public transportation, skipping unnecessary snacks, or preparing food at home—give Good Habit Points, while poor decisions either reward fewer points or impose small penalties. At the end of the daily scenario, the app generates a summary showing the user’s remaining budget, total points earned, and a short AI insight explaining the financial impact of their choices. The user can also connect their wallet to store progress, earn on-chain badges for consistently making good decisions, and level up their Financial Warrior avatar over time. Completing days and maintaining streaks increases a monthly progress bar, and once the bar is full, the user can claim a Monthly Achievement NFT that represents their improved financial discipline.
++
++The mini app must include simple and essential features: a wallet connection flow, a daily budget scenario screen, three to five real-life spending choices per day, a point calculation system, a progress dashboard showing streaks and levels, and a rewards screen for badges and monthly NFTs. The rules of the game should be easy to understand: (1) the user gets a fixed budget each day, (2) the user must choose how to spend or save, (3) each choice instantly affects their points and remaining budget, (4) completing the daily scenario finalizes their score and streak, and (5) completing enough days unlocks rewards. Everything should be clean, functional, and optimized for mobile use.
++
++Use a modern, professional color theme suitable for a financial wellness app: royal blue (#2563EB) for primary actions, green (#16A34A) for progress and success indicators, gold (#FACC15) for rewards and badges, soft white (#F8FAFC) for background, and dark navy (#0F172A) for text.
++
++The overall experience should be simple, friendly, gamified, and educational—helping users make smarter financial choices through interactive daily scenarios rather than boring budgeting tools.
+
+# 2025-12-01 06:35:37.971456
++Build a mini app called “Budget Quest”, a simple but meaningful financial decision-making game designed to help users develop better spending habits through real-life scenarios. When the game starts, the user receives a virtual daily budget (e.g., ₱500–₱1,000), and the app presents several real-life choices such as buying coffee, ordering fast food, taking public transportation instead of a taxi, or purchasing a non-essential item. The user must choose how to spend their money, and each decision earns points based on whether the choice reflects smart financial behavior. Good decisions—such as choosing public transportation, skipping unnecessary snacks, or preparing food at home—give Good Habit Points, while poor decisions either reward fewer points or impose small penalties. At the end of the daily scenario, the app generates a summary showing the user’s remaining budget, total points earned, and a short AI insight explaining the financial impact of their choices. The user can also connect their wallet to store progress, earn on-chain badges for consistently making good decisions, and level up their Financial Warrior avatar over time. Completing days and maintaining streaks increases a monthly progress bar, and once the bar is full, the user can claim a Monthly Achievement NFT that represents their improved financial discipline.
++
++The mini app must include simple and essential features: a wallet connection flow, a daily budget scenario screen, three to five real-life spending choices per day, a point calculation system, a progress dashboard showing streaks and levels, and a rewards screen for badges and monthly NFTs. The rules of the game should be easy to understand: (1) the user gets a fixed budget each day, (2) the user must choose how to spend or save, (3) each choice instantly affects their points and remaining budget, (4) completing the daily scenario finalizes their score and streak, and (5) completing enough days unlocks rewards. Everything should be clean, functional, and optimized for mobile use.
++
++Use a modern, professional color theme suitable for a financial wellness app: royal blue (#2563EB) for primary actions, green (#16A34A) for progress and success indicators, gold (#FACC15) for rewards and badges, soft white (#F8FAFC) for background, and dark navy (#0F172A) for text.
++
++The overall experience should be simple, friendly, gamified, and educational—helping users make smarter financial choices through interactive daily scenarios rather than boring budgeting tools.
+
+# 2025-12-01 06:36:49.845798
++apply changes
+
+# 2025-12-01 06:36:49.846361
++apply changes
