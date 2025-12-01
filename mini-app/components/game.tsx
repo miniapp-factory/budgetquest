@@ -45,6 +45,48 @@ const SCENARIOS: Scenario[] = [
       { text: "Save the money (₱0)", cost: 0, points: 20 },
     ],
   },
+  {
+    prompt: "Snack choice:",
+    options: [
+      { text: "Chips (₱120)", cost: 120, points: -10 },
+      { text: "Fruit (₱80)", cost: 80, points: 10 },
+    ],
+  },
+  {
+    prompt: "Entertainment:",
+    options: [
+      { text: "Movie ticket (₱250)", cost: 250, points: -15 },
+      { text: "Free online content", cost: 0, points: 15 },
+    ],
+  },
+  {
+    prompt: "Transportation to work:",
+    options: [
+      { text: "Ride-share (₱180)", cost: 180, points: -10 },
+      { text: "Public bus (₱60)", cost: 60, points: 10 },
+    ],
+  },
+  {
+    prompt: "Coffee shop vs. home brew:",
+    options: [
+      { text: "Coffee shop (₱150)", cost: 150, points: -10 },
+      { text: "Home brew (₱30)", cost: 30, points: 10 },
+    ],
+  },
+  {
+    prompt: "Grocery shopping:",
+    options: [
+      { text: "Impulse buy (₱200)", cost: 200, points: -15 },
+      { text: "Plan list (₱0)", cost: 0, points: 15 },
+    ],
+  },
+  {
+    prompt: "Daily transport:",
+    options: [
+      { text: "Taxi (₱200)", cost: 200, points: -10 },
+      { text: "Bike (₱0)", cost: 0, points: 10 },
+    ],
+  },
 ];
 
 const DAILY_BUDGET_MIN = 500;
@@ -65,6 +107,7 @@ export default function Game() {
   const [remaining, setRemaining] = useState<number>(0);
   const [points, setPoints] = useState<number>(0);
   const [currentScenario, setCurrentScenario] = useState<number>(0);
+  const [weekDay, setWeekDay] = useState<number>(0);
   const [progress, setProgress] = useState<Progress>({
     points: 0,
     streak: 0,
@@ -82,24 +125,27 @@ export default function Game() {
       const today = new Date().toISOString().split("T")[0];
       if (parsed.lastDate !== today) {
         // New day: reset daily state
-        startNewDay();
+        startNewWeek();
       } else {
         // Continue existing day
         setBudget(parsed.points); // not used
       }
     } else {
-      startNewDay();
+      startNewWeek();
     }
   }, []);
 
-  const startNewDay = () => {
-    const randomBudget =
-      Math.floor(Math.random() * (DAILY_BUDGET_MAX - DAILY_BUDGET_MIN + 1)) +
-      DAILY_BUDGET_MIN;
-    setBudget(randomBudget);
-    setRemaining(randomBudget);
+  const startNewWeek = () => {
+    const weeklyBudget =
+      Math.floor(
+        Math.random() *
+          (DAILY_BUDGET_MAX * 7 - DAILY_BUDGET_MIN * 7 + 1)
+      ) + DAILY_BUDGET_MIN * 7;
+    setBudget(weeklyBudget);
+    setRemaining(weeklyBudget);
     setPoints(0);
     setCurrentScenario(0);
+    setWeekDay(0);
     setSummary(false);
   };
 
@@ -130,7 +176,23 @@ export default function Game() {
     };
     setProgress(updated);
     localStorage.setItem("budgetQuestProgress", JSON.stringify(updated));
-    setSummary(true);
+
+    const nextWeekDay = weekDay + 1;
+    if (nextWeekDay >= 7) {
+      // Week ends
+      const survived = remaining >= 0;
+      setSummary(true);
+      setWeekDay(0);
+      // Reset for next week after showing summary
+      setTimeout(() => {
+        startNewWeek();
+      }, 3000);
+    } else {
+      setWeekDay(nextWeekDay);
+      setCurrentScenario(0);
+      setPoints(0);
+      setRemaining(budget);
+    }
   };
 
   const aiInsight = () => {
@@ -141,10 +203,11 @@ export default function Game() {
   };
 
   if (summary) {
+    const survived = remaining >= 0;
     return (
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle>Daily Summary</CardTitle>
+          <CardTitle>{survived ? "Congratulations!" : "Game Over"}</CardTitle>
         </CardHeader>
         <CardContent>
           <p>Remaining Budget: ₱{remaining}</p>
@@ -152,13 +215,13 @@ export default function Game() {
           <p>{aiInsight()}</p>
           <p>Streak: {progress.streak} days</p>
           <p>Level: {progress.level}</p>
-          {progress.streak >= MONTHLY_STREAK_REQUIRED && (
+          {survived && (
             <Button className="mt-4" onClick={() => alert("NFT claimed!")}>
-              Claim Monthly Achievement NFT
+              Claim Weekly Achievement NFT
             </Button>
           )}
-          <Button className="mt-4" onClick={startNewDay}>
-            Start New Day
+          <Button className="mt-4" onClick={startNewWeek}>
+            Start New Week
           </Button>
         </CardContent>
       </Card>
