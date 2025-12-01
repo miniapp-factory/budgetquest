@@ -256,3 +256,463 @@
 
 # 2025-12-01 07:14:19.400051
 +Add more daily challenges, not just 4 make it atleast 10 per day. Also dont hint the correct answer. Lastly, change the rule, the user should survive for the one week with the allowance given. The allowance should not renew unless the user win or loses. If the user survives he wins if not he does not. 
+
+# 2025-12-01 07:39:38.014272
++This should be the choices:
++DAY 1 – Monday: Start of the Week
++
++Breakfast Decision
++
++Buy fast-food breakfast (₱120)
++
++Cook eggs at home (₱25)
++
++Commute to School/Work
++
++Take a taxi (₱180)
++
++Ride jeepney + tricycle combo (₱35)
++
++Morning Drink
++
++Buy iced coffee (₱90)
++
++Bring your own tumbler with water (₱0)
++
++Lunch Break
++
++Eat at a mall restaurant (₱180)
++
++Eat carinderia meal (₱60)
++
++Evening Activity
++
++Buy mobile game diamonds (₱50)
++
++Skip optional spending (₱0)
++
++📅 DAY 2 – Tuesday: Productivity Day
++
++Load Purchase
++
++Regular prepaid load ₱100
++
++Register to a data promo ₱50
++
++Lunch Choice
++
++Order Milk Tea (₱120)
++
++Drink water and skip sugar (₱0)
++
++Transportation
++
++Use ride-hailing to avoid heat (₱150)
++
++Take jeepney/bus (₱30)
++
++Afternoon Hunger
++
++Buy snacks in convenience store (₱70)
++
++Bring baon banana or biscuits (₱10)
++
++Mini Shopping
++
++Buy a new shirt on impulse (₱250)
++
++Save the money for weekend (₱0)
++
++📅 DAY 3 – Wednesday: Midweek Expenses
++
++Breakfast
++
++Buy pandesal + coffee (₱55)
++
++Home-brew coffee + leftover food (₱20)
++
++Commute
++
++Ride air-conditioned bus (₱60)
++
++Take non-AC bus (₱25)
++
++Lunch
++
++Korean samgyupsal (₱399)
++
++Carinderia meal (₱70)
++
++Afternoon Drink
++
++Buy frappe (₱140)
++
++Drink free water (₱0)
++
++Nighttime Decision
++
++Buy new earphones impulsively (₱150)
++
++Keep using current earphones (₱0)
++
++📅 DAY 4 – Thursday: Healthy or Costly?
++
++Morning Transportation
++
++Motor taxi booking (₱110)
++
++Jeepney ride (₱15)
++
++Breakfast
++
++Hotdog + Egg meal (₱50)
++
++Peanut butter sandwich from home (₱15)
++
++Lunch
++
++Eat buffet with officemates (₱499)
++
++Eat packed lunch/baon (₱0)
++
++After-Work Energy
++
++Buy energy drink (₱55)
++
++Drink water and rest (₱0)
++
++Nighttime Hobby
++
++Buy GCash games top-up (₱80)
++
++Watch YouTube for free (₱0)
++
++📅 DAY 5 – Friday: Temptation Day
++
++Coffee Friday
++
++Buy Starbucks (₱180)
++
++Make your own coffee (₱15)
++
++Lunch with Friends
++
++Eat in a fast-food combo meal (₱140)
++
++Share a group meal to save (₱80)
++
++Transportation
++
++Ride GrabCar because “TGIF” (₱180)
++
++Take bus/jeepney (₱30)
++
++After-Class/Work Snack
++
++Milk tea (₱120)
++
++Water or home-made iced tea (₱0)
++
++Night Activity
++
++Buy pizza delivery (₱250)
++
++Eat leftovers at home (₱0)
++
++📅 DAY 6 – Saturday: Weekend Spending
++
++Breakfast
++
++Eat out at Jollibee (₱150)
++
++Prepare breakfast at home (₱30)
++
++Transportation
++
++Hire tricycle to mall (₱80)
++
++Walk or take jeepney (₱15)
++
++Shopping Temptation
++
++Buy new slippers (₱150)
++
++Skip unnecessary purchase (₱0)
++
++Lunch
++
++Eat at food court (₱160)
++
++Bring cooked rice + ulam from home (₱0)
++
++Evening Entertainment
++
++Watch a movie in cinema (₱260)
++
++Watch movie at home (₱0)
++
++📅 DAY 7 – Sunday: Family Day
++
++Morning Food
++
++Buy breakfast from bakery (₱70)
++
++Eat food cooked at home (₱20)
++
++Transportation
++
++Bring private vehicle (₱150 fuel)
++
++Commute via jeepney (₱20)
++
++Lunch with Family
++
++Eat at a restaurant (₱400)
++
++Cook at home together (₱120 shared)
++
++Afternoon Treat
++
++Ice cream (₱50)
++
++Fresh fruit from home (₱0)
++
++Donation/Offering
++
++Give reasonable offering (₱20–₱50)
++
++Skip offering today (₱0)
++
++Make both choices plain color not the other one is red. 
++
++When the budget goes zero or beyond the game should restart and will message a game over and if there is still a budget in the end of day 7 it should message a congratulations you survive. 
+
+# 2025-12-01 07:39:38.014787
++This should be the choices:
++DAY 1 – Monday: Start of the Week
++
++Breakfast Decision
++
++Buy fast-food breakfast (₱120)
++
++Cook eggs at home (₱25)
++
++Commute to School/Work
++
++Take a taxi (₱180)
++
++Ride jeepney + tricycle combo (₱35)
++
++Morning Drink
++
++Buy iced coffee (₱90)
++
++Bring your own tumbler with water (₱0)
++
++Lunch Break
++
++Eat at a mall restaurant (₱180)
++
++Eat carinderia meal (₱60)
++
++Evening Activity
++
++Buy mobile game diamonds (₱50)
++
++Skip optional spending (₱0)
++
++📅 DAY 2 – Tuesday: Productivity Day
++
++Load Purchase
++
++Regular prepaid load ₱100
++
++Register to a data promo ₱50
++
++Lunch Choice
++
++Order Milk Tea (₱120)
++
++Drink water and skip sugar (₱0)
++
++Transportation
++
++Use ride-hailing to avoid heat (₱150)
++
++Take jeepney/bus (₱30)
++
++Afternoon Hunger
++
++Buy snacks in convenience store (₱70)
++
++Bring baon banana or biscuits (₱10)
++
++Mini Shopping
++
++Buy a new shirt on impulse (₱250)
++
++Save the money for weekend (₱0)
++
++📅 DAY 3 – Wednesday: Midweek Expenses
++
++Breakfast
++
++Buy pandesal + coffee (₱55)
++
++Home-brew coffee + leftover food (₱20)
++
++Commute
++
++Ride air-conditioned bus (₱60)
++
++Take non-AC bus (₱25)
++
++Lunch
++
++Korean samgyupsal (₱399)
++
++Carinderia meal (₱70)
++
++Afternoon Drink
++
++Buy frappe (₱140)
++
++Drink free water (₱0)
++
++Nighttime Decision
++
++Buy new earphones impulsively (₱150)
++
++Keep using current earphones (₱0)
++
++📅 DAY 4 – Thursday: Healthy or Costly?
++
++Morning Transportation
++
++Motor taxi booking (₱110)
++
++Jeepney ride (₱15)
++
++Breakfast
++
++Hotdog + Egg meal (₱50)
++
++Peanut butter sandwich from home (₱15)
++
++Lunch
++
++Eat buffet with officemates (₱499)
++
++Eat packed lunch/baon (₱0)
++
++After-Work Energy
++
++Buy energy drink (₱55)
++
++Drink water and rest (₱0)
++
++Nighttime Hobby
++
++Buy GCash games top-up (₱80)
++
++Watch YouTube for free (₱0)
++
++📅 DAY 5 – Friday: Temptation Day
++
++Coffee Friday
++
++Buy Starbucks (₱180)
++
++Make your own coffee (₱15)
++
++Lunch with Friends
++
++Eat in a fast-food combo meal (₱140)
++
++Share a group meal to save (₱80)
++
++Transportation
++
++Ride GrabCar because “TGIF” (₱180)
++
++Take bus/jeepney (₱30)
++
++After-Class/Work Snack
++
++Milk tea (₱120)
++
++Water or home-made iced tea (₱0)
++
++Night Activity
++
++Buy pizza delivery (₱250)
++
++Eat leftovers at home (₱0)
++
++📅 DAY 6 – Saturday: Weekend Spending
++
++Breakfast
++
++Eat out at Jollibee (₱150)
++
++Prepare breakfast at home (₱30)
++
++Transportation
++
++Hire tricycle to mall (₱80)
++
++Walk or take jeepney (₱15)
++
++Shopping Temptation
++
++Buy new slippers (₱150)
++
++Skip unnecessary purchase (₱0)
++
++Lunch
++
++Eat at food court (₱160)
++
++Bring cooked rice + ulam from home (₱0)
++
++Evening Entertainment
++
++Watch a movie in cinema (₱260)
++
++Watch movie at home (₱0)
++
++📅 DAY 7 – Sunday: Family Day
++
++Morning Food
++
++Buy breakfast from bakery (₱70)
++
++Eat food cooked at home (₱20)
++
++Transportation
++
++Bring private vehicle (₱150 fuel)
++
++Commute via jeepney (₱20)
++
++Lunch with Family
++
++Eat at a restaurant (₱400)
++
++Cook at home together (₱120 shared)
++
++Afternoon Treat
++
++Ice cream (₱50)
++
++Fresh fruit from home (₱0)
++
++Donation/Offering
++
++Give reasonable offering (₱20–₱50)
++
++Skip offering today (₱0)
++
++Make both choices plain color not the other one is red. 
++
++When the budget goes zero or beyond the game should restart and will message a game over and if there is still a budget in the end of day 7 it should message a congratulations you survive. 
