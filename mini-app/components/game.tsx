@@ -203,7 +203,7 @@ export default function Game() {
   };
 
   if (summary) {
-    const survived = remaining >= 0;
+    const survived = remaining > 0;
     return (
       <Card className="w-full max-w-md">
         <CardHeader>
@@ -254,10 +254,7 @@ export default function Game() {
             <Button
               key={idx}
               variant="outline"
-              className={cn(
-                "w-full justify-start",
-                opt.points < 0 && "border-destructive text-destructive"
-              )}
+              className={cn("w-full justify-start")}
               onClick={() => handleOption(opt)}
             >
               {opt.text}
