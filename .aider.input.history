@@ -716,3 +716,9 @@
 +Make both choices plain color not the other one is red. 
 +
 +When the budget goes zero or beyond the game should restart and will message a game over and if there is still a budget in the end of day 7 it should message a congratulations you survive. 
+
+# 2025-12-01 07:54:13.045515
++Make it appear a congratulations when the user wins and game over when the user loses. The user wins if the remaining and the points is positive number and loses if the remaining and points is negative number. 
+
+# 2025-12-01 07:54:13.056571
++Make it appear a congratulations when the user wins and game over when the user loses. The user wins if the remaining and the points is positive number and loses if the remaining and points is negative number. 
